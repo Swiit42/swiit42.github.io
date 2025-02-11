@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Navbar />
+    <router-view />
+    <FooterComp/>
+    <PopupCookies/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/NavBar.vue';
+import HomeView from './views/HomeView.vue';
+import FooterComp from './components/FooterComp.vue';
+import PopupCookies from './components/PopupCookies.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Navbar,
+    HomeView,
+    FooterComp,
+    PopupCookies
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
