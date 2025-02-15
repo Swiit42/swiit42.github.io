@@ -12,7 +12,7 @@
           {{ category }}
         </button>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 lg:p-0 pl-6 pr-6">
         <div v-for="project in filteredProjects" :key="project.id" class="bg-white shadow-md rounded-lg overflow-hidden">
           <router-link :to="'/project/' + slugify(project.title)" class="block">
             <div class="bg-white shadow-md rounded-lg overflow-hidden">

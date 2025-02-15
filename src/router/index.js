@@ -8,7 +8,7 @@ import OlympicGames from '@/projects/OlympicGames.vue';
 import LegalNotice from '@/views/LegalNotice.vue';
 
 const routes = [
-  { path: '/', name: 'Home', component: HomeView },
+  { path: '/home', name: 'Home', component: HomeView },
   { path: '/about', name: 'About', component: AboutView },
   { path: '/contact', name: 'Contact', component: ContactView },
   { path: '/legalNotice', name: 'LegalNotice', component: LegalNotice },

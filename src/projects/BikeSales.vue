@@ -1,12 +1,12 @@
 <template>
     <div class="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div class=" bg-white p-8 rounded-lg shadow-lg m-8 max-w-5xl">
-            <h1 class="text-3xl font-bold mb-4"> Sales and Clients Dashboard Power BI - Adventure Works 2019</h1>
-            <img src="@/assets/velo.jpg" alt="Bike Sales" class="w-full h-80 object-cover rounded mb-4">
+        <div class="bg-white lg:p-8 p-4 rounded-lg shadow-lg m-8 max-w-5xl">
+            <h1 class="lg:text-3xl text-xl font-bold mb-4">Sales and Clients Dashboard Power BI - Adventure Works 2019</h1>
+            <img src="@/assets/velo.jpg" alt="Bike Sales" class="w-full lg:h-80 object-cover rounded mb-4">
 
             <div class="flex flex-col lg:flex-row items-center lg:items-start mt-5 mb-12">
                 <div class="lg:w-3/5 mb-6 lg:mb-0">
-                    <p class="text-gray-700 ml-3">
+                    <p class="text-gray-700 lg:ml-3">
                         Dans ce projet, j'ai travaillé sur les données du dataset Adventure Works 2019, représentant les
                         ventes
                         d'un revendeur de vélos. L'objectif était de répondre à une demande client en fournissant un
@@ -14,7 +14,7 @@
                         interactif et pertinent, permettant d'avoir une vision globale des ventes et des performances
                         commerciales.
                         <br><br>
-                        <b>Étapes clés du projet :</b>
+                        <b>Étapes clés du parojet :</b>
                         <br>
                         Analyse des besoins et rédaction des user stories
                         J'ai commencé par identifier les besoins du client et les principaux indicateurs à suivre. Cette
@@ -101,7 +101,7 @@
                         class="w-full h-auto rounded-lg shadow-md mb-3">
                 </div>
             </div>
-            <router-link to="/" class="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+            <router-link to="/home" class="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
                 Retour au Portfolio
             </router-link>
         </div>
