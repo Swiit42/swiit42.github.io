@@ -21,7 +21,7 @@
               <label for="message" class="block text-gray-700 font-semibold">Message</label>
               <textarea id="message" v-model="form.message" rows="5" required class="w-full border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Votre message"></textarea>
             </div>
-            <button :disabled="isSending" type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
+            <button :disabled="isSending" type="submit" class="px-5 py-2 font-medium border rounded-sm transition duration-200 bg-emerald-500 text-white border-emerald-500 hover:bg-emerald-600">
               {{ isSending ? 'Envoi en cours...' : 'Envoyer' }}
             </button>
           </form>
@@ -29,7 +29,6 @@
       </div>
     </div>
 
-    <!-- Popup de confirmation -->
     <div v-if="isModalVisible" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div class="bg-white rounded-lg p-6 shadow-lg max-w-sm text-center">
         <h3 class="text-xl font-bold mb-4">Message envoyé !</h3>

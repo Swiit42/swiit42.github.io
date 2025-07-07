@@ -10,7 +10,7 @@
             <h2 class="text-3xl font-bold mb-4">Qui suis-je ?</h2>
             <p class="text-gray-700 leading-relaxed mb-6">
               Je m'appelle Oleksandr Tymoshenko, et je suis arrivé en France à l'âge de 9 ans. Dès mon plus jeune âge, j'ai toujours été attiré par les chiffres, les mathématiques et la logique.
-              Mon parcours a commencé par une licence en Langues Étrangères Appliquées (anglais-russe). Mais, je me suis rapidement rendu compte que ce domaine ne me correspondait.
+              Mon parcours a commencé par une licence en Langues Étrangères Appliquées (anglais-russe). Mais je me suis rapidement rendu compte que ce domaine ne me correspondait.
             </p>
             <p class="text-gray-700 leading-relaxed mb-6">
               Après un temps de travail en restauration, j'ai décidé de rejoindre Epitech, une école d'informatique, pour un Master of Science en Big Data / IA. J'ai travaillé pendant trois ans en alternance en tant que développeur full stack à l'Imprimerie Nationale et à ADEO.
@@ -21,9 +21,14 @@
             <p class="text-gray-700 leading-relaxed mb-6">
               Durant ma formation, j’ai pu réaliser plusieurs projets liés à la data et à l’intelligence artificielle, ce qui m’a permis de renforcer mes compétences en analyse, visualisation de données et optimisation continue. Aujourd’hui, mon objectif est de contribuer à des projets data-driven, où je peux mettre à profit ma rigueur, ma curiosité et mon envie constante d’apprendre et d’optimiser.
             </p>
-            <a href="/CV_TYMOSHENKO_OLEKSANDR.pdf" download class="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600 transition-colors">
-              Télécharger Mon CV
+            <a
+              href="/TYMOSHENKO_OLEKSANDR_CV.pdf"
+              download
+              class="px-5 py-2 font-medium border rounded-sm transition duration-200 bg-emerald-500 text-white border-emerald-500 hover:bg-emerald-600"
+            >
+              Télécharger mon CV
             </a>
+
           </div>
         </div>
       </div>

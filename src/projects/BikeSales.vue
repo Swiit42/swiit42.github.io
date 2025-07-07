@@ -101,7 +101,7 @@
                         class="w-full h-auto rounded-lg shadow-md mb-3">
                 </div>
             </div>
-            <router-link to="/home" class="mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+            <router-link to="/" class="px-5 py-2 font-medium border rounded-sm transition duration-200 bg-emerald-500 text-white border-emerald-500 hover:bg-emerald-600">
                 Retour au Portfolio
             </router-link>
         </div>
