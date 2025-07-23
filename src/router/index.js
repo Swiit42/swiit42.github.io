@@ -7,6 +7,7 @@ import CoffeeSales from '@/projects/CoffeeSales.vue';
 import OlympicGames from '@/projects/OlympicGames.vue';
 import LegalNotice from '@/views/LegalNotice.vue';
 import CryptoTrade from '@/projects/CryptoTrade.vue';
+import BankingApp from '@/projects/BankingApp.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: HomeView, meta: { title: 'Accueil' } },
@@ -17,6 +18,7 @@ const routes = [
   { path: '/project/coffee-sales-dashboard', name: 'CoffeeSales', component: CoffeeSales, meta: { title: 'Coffee Sales Dashboard' } },
   { path: '/project/olympic-games', name: 'OlympicGames', component: OlympicGames, meta: { title: 'Olympic Games' } },
   { path: '/project/crypto-trade', name: 'CryptoTrade', component: CryptoTrade, meta: { title: 'Crypto Trade' } },
+  { path: '/project/banking-app', name: 'BankingApp', component: BankingApp, meta: { title: 'Banking App' } },
 ];
 
 const router = createRouter({

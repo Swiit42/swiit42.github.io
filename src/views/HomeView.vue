@@ -51,6 +51,7 @@ export default {
         { id: 2, title: 'Bike Customer Sales', category: 'Power Bi', image: require('../assets/BIK_BikeSales.png') },
         { id: 3, title: 'Olympic Games', category: 'Power Bi', image: require('../assets/OLY_olympicGames.png') },
         { id: 4, title: 'Coffee Sales Dashboard', category: 'Excell', image: require('../assets/COF_coffeeDashboard.png') },
+        { id: 5, title: 'Banking App', category: 'Java Spring Boot', image: require('../assets/BANK_home.png') },
       ],
     };
   },

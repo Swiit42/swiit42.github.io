@@ -4,7 +4,7 @@
       <router-link to="/" class="flex items-center space-x-3">
         <div class="text-left">
           <p class="text-xl font-bold text-gray-900">Oleksandr Tymoshenko</p>
-          <p class="text-sm text-emerald-600">Data Engineer</p>
+          <p class="text-sm text-emerald-600">Développeur - Data Engineer</p>
         </div>
       </router-link>
 

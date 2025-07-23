@@ -1,115 +1,99 @@
 <template>
-    <div class="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div class="bg-white lg:p-8 p-4 rounded-lg shadow-lg m-8 max-w-5xl">
-            <h1 class="lg:text-3xl text-xl font-bold mb-4">Sales and Clients Dashboard Power BI - Adventure Works 2019</h1>
-            <img src="@/assets/velo.jpg" alt="Bike Sales" class="w-full lg:h-80 object-cover rounded mb-4">
+  <div class="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div class="bg-white lg:p-8 p-4 rounded-lg shadow-lg m-8 max-w-5xl">
+      <h1 class="lg:text-3xl text-xl font-bold mb-6 text-center lg:text-left">
+        Banking App - Application de gestion de comptes
+      </h1>
 
-            <div class="flex flex-col lg:flex-row items-center lg:items-start mt-5 mb-12">
-                <div class="lg:w-3/5 mb-6 lg:mb-0">
-                    <p class="text-gray-700 lg:ml-3">
-                        Dans ce projet, j'ai travaillé sur les données du dataset Adventure Works 2019, représentant les
-                        ventes
-                        d'un revendeur de vélos. L'objectif était de répondre à une demande client en fournissant un
-                        dashboard
-                        interactif et pertinent, permettant d'avoir une vision globale des ventes et des performances
-                        commerciales.
-                        <br><br>
-                        <b>Étapes clés du parojet :</b>
-                        <br>
-                        Analyse des besoins et rédaction des user stories
-                        J'ai commencé par identifier les besoins du client et les principaux indicateurs à suivre. Cette
-                        étape m'a
-                        permis de structurer le projet et de définir les KPIs clés.
-
-                    </p>
-                </div>
-                <div class="lg:w-2/5 mr-2">
-                    <img src="@/assets/BIK_business.png" alt="Products" class="w-full h-auto rounded-lg shadow-md mb-3">
-                </div>
-            </div>
-            <div class="flex flex-wrap lg:flex-wrap items-center lg:items-start mb-12">
-                <div class="lg:w-2/6 mr-6 mb-6">
-                    <img src="@/assets/BIK_SQL.png" alt="Customers" class="w-full h- rounded-lg shadow-md mb-3">
-                </div>
-                <div class="lg:w-3/5 mb-10 lg:mb-5">
-                    <p class="text-gray-700 mb-4">
-                        <b>Sélection et préparation des données</b>
-                        <br>
-                        J'ai sélectionné 4 tables : Customer, DateTable, Product, et Sales, contenant toutes les
-                        informations essentielles.
-                        <br>
-                        <br>
-                        Après la selection des données nécessaires et leur nettoyage, j'ai extrait les informations avec
-                        plusieurs requêtes SQL et les ai transformé en sheet Excell pour qu'elles puissent être
-                        intégrées dans Power BI. <br><br>
-
-                    </p>
-                </div>
-                <div class="lg:w-2/5 mb-6 lg:mb-0 pr-2">
-                    <b>Création du modèle de données dans Power BI</b>
-                    <br>
-                    J'ai établi les relations entre les différentes tables pour structurer efficacement le modèle de
-                    données.
-                    J'ai ensuite mis en place une timeline et des segments interactifs permettant de filtrer les
-                    données en
-                    fonction des besoins spécifiques de l'utilisateur.
-                    <br>
-
-                </div>
-                <div class="lg:w-3/5 mb-6 lg:mb-0">
-                    <img src="@/assets/BIK_relations.png" alt="Products" class="w-full h-auto rounded-lg shadow-md">
-                </div>
-                <p class="text-gray-700 lg:w-2/6 mt-6 pr-1">
-                    <b>Construction du dashboard - Partie ventes</b>
-                    <br>
-                    Création de filtres par villes, mois et année permettant d'avoir une visualisation plus précise.
-                    <br>
-                    <b>Métriques clés affichées :</b> <br>
-                    Ajout de <b> KPI's</b> clés : budget, total des ventes.<br>
-                    Analyse des performances des ventes au fil du temps.<br>
-                    Top 10 des produits et des villes en fonction du volume des ventes.<br>
-                    Visualisations dynamiques pour offrir une lecture claire et intuitive des données.
-
-                </p>
-                <div class="lg:w-4/6 mt-6">
-                    <img src="@/assets/BIK_BikeSales.png" alt="Products"
-                        class="w-full h-auto rounded-lg shadow-md mb-3">
-                </div>
-                <p class="text-gray-700 mt-6 mb-6">Le dashboard final permet de filtrer les informations en temps réel
-                    et d'obtenir une analyse complète
-                    des ventes, des performances par région, et des produits les plus populaires. Il constitue un outil
-                    d'aide à la décision puissant pour le client, facilitant la compréhension des tendances et
-                    l'optimisation des stratégies commerciales.</p>
-                <p class="text-gray-700 lg:w-2/6 mt-6 pr-1">
-                    <b>Construction du dashboard – Partie Client</b>
-                    <br><br>
-                    Ajout de filtres par ville, tranche d'âge, sexe et période (mois/année). <br>
-                    <br>
-                    <b>Métriques clés affichées :</b> <br>
-
-                    Nombre total de clients <br>
-                    Plus grosse offre réalisée <br>
-                    Répartition des clients par pays. <br>
-
-                    Analyse des ventes par tranche d'âge, permettant d'identifier les groupes les plus performants. <br>
-                    Classement des Top 10 clients en fonction du montant total des ventes. <br>
-                    Visualisation dynamique des ventes par client et par mois, facilitant la détection des tendances. <br>
-
-                </p>
-                <div class="lg:w-4/6 mt-6">
-                    <img src="@/assets/BIK_customers.png" alt="Customers"
-                        class="w-full h-auto rounded-lg shadow-md mb-3">
-                </div>
-            </div>
-            <router-link to="/" class="px-5 py-2 font-medium border rounded-sm transition duration-200 bg-emerald-500 text-white border-emerald-500 hover:bg-emerald-600">
-                Retour au Portfolio
-            </router-link>
+      <div class="flex flex-col lg:flex-row items-center lg:items-start mt-5 mb-12">
+        <div class="lg:w-3/5 mb-6 lg:mb-0">
+          <p class="text-gray-700">
+            Cette application bancaire permet aux utilisateurs de créer un compte, se connecter avec leur numéro de
+            compte, effectuer des dépôts, des retraits et des transferts entre comptes. Elle intègre Kafka pour la
+            publication d'événements de transaction et d'audit, et utilise MySQL comme base de données. Le projet est
+            développé en Java Spring Boot et Vue.js, avec une architecture REST, un envoi d'emails automatique à la
+            création d'un compte, et une persistance via JPA/Hibernate.
+          </p>
         </div>
+        <div class="lg:w-2/5">
+          <img src="@/assets/BANK_home.png" alt="Accueil" class="w-full h-auto rounded-lg shadow-md" />
+        </div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-center lg:items-start mb-12">
+        <div class="lg:w-2/5">
+          <img src="@/assets/BANK_client.png" alt="Compte client" class="w-full h-auto rounded-lg shadow-md" />
+        </div>
+        <div class="lg:w-3/5 lg:pl-6">
+          <p class="text-gray-700">
+            Lorsqu'un utilisateur crée un compte, un email de confirmation lui est envoyé avec son numéro de compte. La
+            connexion se fait sans mot de passe, uniquement avec ce numéro. Une fois connecté, l'utilisateur peut
+            consulter son solde, effectuer des transferts ou des opérations de crédit/débit.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-center lg:items-start mb-12">
+        <div class="lg:w-3/5 mb-6 lg:mb-0">
+          <p class="text-gray-700">
+            Toutes les transactions sont enregistrées dans la base de données MySQL. L'application publie également des
+            événements `TransferEvent` et `TransactionAuditEvent` dans Apache Kafka, sur deux topics distincts :
+            <code>bank.transfer.audit</code> et <code>bank.transaction.audit</code>. Ces événements sont consommés pour le
+            monitoring, l'audit, ou des dashboards à venir.
+          </p>
+        </div>
+        <div class="lg:w-2/5">
+          <img src="@/assets/BANK_transaction.png" alt="Audit Kafka" class="w-full h-auto rounded-lg shadow-md" />
+        </div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-center lg:items-start mb-12">
+        <div class="lg:w-3/5 mb-6 lg:mb-0">
+          <p class="text-gray-700">
+            Le projet repose sur une base relationnelle structurée avec les tables <code>user</code>, <code>transaction</code>
+            et <code>transfer</code>, ainsi qu'une table de jointure. L'ensemble est orchestré via Spring Boot, JPA et
+            MapStruct. Kafka est configuré dans un environnement Docker, ce qui permet un déploiement rapide et isolé.
+          </p>
+        </div>
+        <div class="lg:w-2/5">
+          <img src="@/assets/BANK_sql.png" alt="Modèle relationnel" class="w-full h-auto rounded-lg shadow-md" />
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <img src="@/assets/BANK_archi.png" alt="Architecture projet" class="w-full h-auto rounded-lg shadow-md mb-3" />
+        <p class="text-gray-700">
+          Vue d'ensemble de l'architecture de l'application. Chaque composant est modulaire, avec une couche
+          présentation Vue.js, un back-end Spring Boot, une base MySQL et Kafka en gestion d'événements.
+        </p>
+      </div>
+
+      <div class="mb-8">
+        <img src="@/assets/BANK_mail.png" alt="Email confirmation" class="w-full h-auto rounded-lg shadow-md" />
+      </div>
+
+      <div class="flex justify-end">
+        <a
+          href="https://github.com/Swiit42/BankingApp"
+          target="_blank"
+          class="inline-block mt-4 bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-900"
+        >
+          Voir le projet sur GitHub
+        </a>
+      </div>
+
+      <router-link
+        to="/"
+        class="mt-6 inline-block bg-emerald-500 text-white py-2 px-4 rounded hover:bg-emerald-600"
+      >
+        Retour au Portfolio
+      </router-link>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'BikeSales'
+  name: 'BankingApp'
 };
 </script>
